@@ -1,0 +1,119 @@
+body{
+    background-color: grey;
+    
+    padding: 8pt;
+    margin:0 auto ;
+    font-size: 16pt;
+    border: 2px;
+   
+}
+header{
+    background-color: red;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+    padding: 10pt;
+    font-family: roboto sans-serif;
+
+}
+h2{
+    background-color: thistle;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10pt;
+    text-align: center;
+    font-family: roboto sans-serif;
+}
+p{
+
+    color: black;
+    background-color: blanchedalmond;
+    margin: auto;
+    line-height: 1.5;
+    padding: 10pt;
+    font-family: barlow sans-serif;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:10px ;
+    margin: 0 auto;
+    max-width: 767px;
+}
+ 
+footer{
+    text-align: center;
+    background-color: seashell;
+    color: black;
+}
+
+button{
+    color:black;
+    background-color:thistle;
+    padding: 10px;
+
+}
+.sky-news,.lds,.bootcamp{
+    width: 100%;
+    border:5px thistle;
+    border-radius:10px ;
+    box-shadow:10px thistle;
+    margin-top: 5px;
+ 
+    }
+    a{
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        padding: 10px;
+    }
+@media  screen and (min-width:37.5em){
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:10px;
+        grid-template-rows: 2;
+        border: 1px solid thistle;
+        border-radius: 5px;
+
+    }
+    .contrast{
+        grid-column: 1/4;
+        grid-row: 2;
+    
+    }
+    
+        
+    }  
+    
+@media screen and  (min-width:60em){
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row: 1;
+        max-width: 60em;
+        
+
+    }
+    .contrast{
+        grid-column: 3/4;
+        grid-row: 1;
+    }
+    .body{
+        padding: 24px;
+        margin:0,auto;
+        max-width: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: rgb(202, 40, 40);
+
+
+    }
+    
+
+
+}
