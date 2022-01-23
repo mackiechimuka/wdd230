@@ -10,7 +10,6 @@ body{
 header{
     background-color: red;
     color: white;
-    align-items: center;
     text-align: center;
 }
 h1{
@@ -42,7 +41,6 @@ p{
     grid-template-columns: 1fr;
     grid-gap:10px ;
     margin: 0 auto;
-    max-width: 767px;
 }
  
 footer{
@@ -67,17 +65,21 @@ button{
     }
     a{
         text-decoration: none;
-        text-align: center;
         font-weight: bold;
         font-style: italic;
         padding: 10px;
+        color: white;
     }
+
+    a:hover{
+        background-color: red;
+        color: black;
+    }
+
 @media  screen and (min-width:37.5em){
     .content{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap:10px;
-        grid-template-rows: 2;
         border: 1px solid thistle;
         border-radius: 5px;
 
@@ -95,12 +97,10 @@ button{
     .content{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-row: 1;
-        max-width: 60em;
         
 
     }
-    .contrast{
+  .contrast{
         grid-column: 3/4;
         grid-row: 1;
     }

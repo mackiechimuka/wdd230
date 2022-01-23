@@ -1,9 +1,16 @@
- nav ul a{
+ nav ul li a{
+     
     background-color: navy;
     padding: 10px;
-    display: block;
     color: white;
     text-align: start;
+    display: block;
+    text-decoration:none ;
+
+}
+nav ul a:hover{
+    background-color: thistle;
+    color: black;
 }
 header{
     background-color: navy;
@@ -101,3 +108,52 @@ table th td{
     color: white;
     padding: 5px;
 }
+
+@media  screen and (min-width:37.5em){
+    nav ul li a{
+        padding: 10px;
+
+    }
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        padding: 10px;
+        margin: auto 0;
+        justify-content: space-around;
+    }
+}
+        
+
+    @media screen and  (min-width:60em){
+    nav ul li a{
+            text-align: right;
+            padding: 10px;
+            font-size: 22pt;
+        
+        
+        }
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        padding: 10px;
+        margin: auto 0;
+        justify-content: space-around;
+
+    }
+    header{
+        background-color:navy ;
+    
+    }
+    h1{
+        font-size: 37px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    p{
+        font-size: 18px;
+    }
+        
+    
+    
+    }
