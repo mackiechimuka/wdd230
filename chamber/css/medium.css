@@ -1,0 +1,53 @@
+@media  screen and (min-width:37.5em){
+    .gweru{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .hero{
+        grid-column: 1/5;
+        grid-row: 1;
+    }
+    .news{
+        grid-column: 1/5;
+        grid-row: 2;
+    }
+    .spot{
+        grid-column: 1/5;
+        grid-row: 3;
+        
+    }
+    .light{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .join{
+        grid-column:1/5 ;
+        grid-row:4;
+        visibility: visible;
+        margin: 5px;
+        padding: 10px;
+        border: solid navy;
+        background-color: white;
+    }
+    .event{
+        grid-column: 1/4;
+        grid-row: 5;
+    }
+    .weather{
+        grid-column: 4/5;
+        grid-row: 5;
+    }
+    .footinfo{
+        grid-template-columns:1fr 1fr 1fr ;
+        display: grid;
+    }
+    .address{
+        grid-column: 3/4;
+        color: white;
+    }
+    .footlogoo{
+        grid-column: 1/2;
+        color: white;
+    }
+}
