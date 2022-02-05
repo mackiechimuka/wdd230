@@ -3,119 +3,189 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>GweruChambersofCommerce</title>
+        <title>GweruChamberofCommerce</title>
         <meta name="" content="">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.png">
         <script defer src="js/main.js"></script>
     </head>
     <body>
         <header>
-            <div class="header">
-            <div class="logo">
+            <div class="header-logo">
                 <picture>
                     <img src="images/logo.png"alt="GCC logo">
                 </picture>
-                <section class="headings">
-                    <h1>Gweru</h1>
-                    <q class="m">Chambers of Commerce</q>
-                </section>
-            </div>
-            <div class="social">
-            <picture>
-                <a href="https://www.facebook.com" target="blank">
-                <img class="facebook" src="https://byui-cit.github.io/wdd130/images/icons/color/facebook.png"
-                alt="facebook-icon"></a>
-            </picture>
-            <picture>
-                <a href="https://www.instagram.com" target="blank">
-                <img class="instagram" src="https://byui-cit.github.io/wdd130/images/icons/color/instagram.png" alt="instagram"></a>
-            </picture>
-            
-            </div>
+                </div>
+                <div class="sitename">
+                    <h1>
+                        <a href="index.html">Gweru<br>Chamber of Commerce</a>
+                    </h1>
+                </div>
+                
+                <div class="social-content">
+                    <div class="social-icons">
+                        <picture>
+                            <a href="https://www.facebook.com" target="blank">
+                                <img class="facebook" src="https://byui-cit.github.io/wdd130/images/icons/color/facebook.png"
+                                alt="facebook-icon"></a>
+                            </picture>
+                            <picture>
+                                 <a href="https://www.instagram.com" target="blank">
+                                     <img class="instagram" src="https://byui-cit.github.io/wdd130/images/icons/color/instagram.png" alt="instagram"></a>
+                                    </picture>
+                    </div>
+               </div>
             <nav>
-                <ul class="navigation">
-                    <li><a class="ham" href="#">Menu</a></li>
-                    <li><a href="discover.html">Discover</a></li>
+                <button id="hum-button"><span>&#9776;</span><span>X</span></button>
+                <ul id="navicon">
+                    <li class="active"><a href="discover.html">Discover</a></li>
                     <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
+            
+            <div class="time">
+                <span id="time-today"><em></em></span>
             </div>
-            <p id="time" class="time">Current Date</p>
         </header>
         <main>
             <div class="gweru">
-                <section class="hero">
-                    <p>
-                        Hero with site name and call to action.
+                <div class="hero">
+                    <h1 id="welcome">
+                        Welcome to Gweru
+                    </h1>
+                    <picture>
+                        <img id="small-G" src="images/small-gweru image.png" alt="Gweru small">
+                    </picture>
+                    <picture>
+                        <img id="big-G" src="images/FB_IMG_16408397151540811.png" alt="Gweru big">
+                    </picture>
+                    <h2 id="h2w"><a href="join.html" target="blank">Join the Chamber</a></h2>
+
+
+                </div>
+                <div class="event">
+                    <h2 id="h2rbn">
+                        Ribbon Cutting
+                    </h2>
+                    <p id="even">
+                        Join us on the grand opeing of the Gweru Research Center,Monday at 11:00 P.M
+                        <a href="#" target="_blank">more info</a>
                     </p>
 
-                </section>
-                <section class="event">
-                    <p>
-                        Event
+                </div>
+                <div class="weather">
+                    <h2>Weather</h2>
+                    <picture>
+                        <img src="images/logoweather.png" id="gweather" alt="weather">
+                    </picture>
+                    <p id="temp">
+                        33°C
                     </p>
-
-                </section>
-                <section class="weather">
-                    <p>
-                        weather
+                    <p id="partly">
+                        partly cloud
                     </p>
+                    <section class="w2k">
+                        <h2 class="wehide">Weather</h2>
+                        <p class="ws">Wind Speed:</p>
+                        <p class="speed">2.5km/h</p>
+                        <p class="wc">Wind Chill:</p>
+                        <p class="na">N/A</p>
+                      </section>
 
-                </section>
-                <section class="news">
-                    <p>
+                </div>
+                <div class="news">
+                    <h2>
                         News Release
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
 
-            </section>
-            <section class="spot">
-                <div class="light">
+                </div>
+            <div class="spot">
+                <section class="light">
                     <section class="spotlight1">
+                        <h2>GT Car dealer</h2>
+                        <picture>
+                            <img class="car" src="images/car dealership.jpg" alt="gt car dealer">
+                        </picture>
                         <p>
-                            spotlight1
+                            We offer the best and the most affordable cars in town
                         </p>
+                       <hr/>
+                        <p>contactus@gtcars.com</p>
+                        <p>+263456754356 Alvaro Montana</p>
 
                     </section>
                     <section class="spotlight2">
+                        <h2>Shazum Real Estate</h2>
+                        <picture>
+                            <img class="realestate" src="images/real-estate_bus.jpg" alt="Shazum real estate image">
+                        </picture>
                         <p>
-                            spotlight2
+                           Do you want a home? We got you covered, we have affordable houses for everyone in the society at great prices.
                         </p>
+                        <hr />
+                        <p>sales@sre.com</p>
+                        <p>+263776532890 Tinashe Dube</p>
 
                     </section>
                     <section class="spotlight3">
+                        <h2>Coding Spot</h2>
+                        <picture>
+                            <img class="codespot" src="images/coding spot.jpg" alt="code spot img">
+                        </picture>
+                        <p>Produces the top and best programers in the country</p>
+                        <hr/>
                         <p>
-                            spotlight3
+                            learn@codespot.co.zw
                         </p>
+                        <p>+26379076356 Alfredo Thomas</p>
 
                     </section>
                     
-                </div>
-            </section>
-            <section class="join">
+                </section>
+            </div>
+            <div class="join">
+                <section>
+                    <h2 id="join"><a href="#" target="_blank">Join the Chamber</a></h2>
+                    <p>
+                      Discover how to join our Chamber of Commerce and the benefits
+                      available to you!
+                    </p>
+                  </section>
                 <p>Join</p>
-            </section>
+            </div>
             </div> 
         </main>
         <footer>
-            <section class="footinfo">
                 <div class="footlogoo">
                 <picture>
                     <img src="images/logo.png"alt="footer-logo">
                 </picture>
-                <h2>Gweru Chambers of Commerce</h2>
                 </div>
-                <p class="address">jjjkkkkkkkk<br> Gweru,Zimbabwe <br> <br> info@gcc.com <br> <br> +2630774024998</p>
-                
-
-            </section>
-            <div class=info>
-                <p>&copy2022 GCC</p>
-                <p id="date">Update time</p>
+                <div class="site-name-address-footer">
+                    jjjkkkkkkkk<br> Gweru,Zimbabwe 
+                </div>
+                <div class="footer-site-contact">
+                     info@gcc.com <br> +2630774024998 <br> <a href="https://goo.gl/maps/ALkGD3KPfDJR5Ry86" target=
+                     "blank">📍Location Map</a>
+                </div>
+              <div class=lower-info>
+              </hr>
+              <div class="copyright">
+                &copy; <span id="currentyear"></span> Gweru Chamber of Commerce | McNeill
+                Chimuka | WDD 230 Project | Last Updated:
+                <span id="currentdate"></span>
+              </div>
+              <div class="last-updated">
+                <p></p>
+              </div>
 
             </div>
         </footer>
