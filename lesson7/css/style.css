@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Titillium+Web:wght@200&display=swap");
+
+
+
+body {
+  margin: auto;
+  width: 400px;
+  background: gray;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  background-color: turquoise;
+  margin: auto;
+  width: 350px;
+}
+
+header {
+  background-color: skyblue;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px grey;
+  padding: 10px;
+}
+
+h1,
+p,
+span,
+div {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer {
+  display: grid;
+  justify-items: center;
+  background-color: skyblue;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px grey;
+  padding: 20px;
+  padding: 10px;
+}
+
+.copyright {
+  font-family: "Raleway", sans-serif;
+  margin-top: 10px;
+}
+
+.last-updated {
+  font-family: "Titillium Web", sans-serif;
+  margin-top: -10px;
+}
+div.last-updated {
+  padding: 10px;
+}
+
+img {
+  border-radius: 2px;
+}

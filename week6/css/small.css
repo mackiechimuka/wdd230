@@ -145,8 +145,7 @@ h2{
     border: solid navy;
     position: relative;
 }
-div.gweru > div.hero > picture > img {
-  width: 100%;}
+div.gweru > div.hero > picture > img {width: 100%;}
 #small-G{
     height: auto;
     width: 100%;
@@ -160,6 +159,7 @@ div.gweru > div.hero > picture > img {
     font-size: 1em;
     top: 0;
     padding: 5px;
+    font-weight: bold;
 }
 #h2w{
     position: absolute;
@@ -167,6 +167,7 @@ div.gweru > div.hero > picture > img {
     left: 20px;
     bottom: 15px;
     border-radius: 20px;
+    font-size: 18px;
 }
 .w2k {
     display: grid;
