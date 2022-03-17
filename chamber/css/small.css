@@ -146,9 +146,10 @@ h2{
     position: relative;
 }
 div.gweru > div.hero > picture > img {
-  width: 100%;}
+  width: 100%;
+}
 #small-G{
-    height: auto;
+    height: 100%;
     width: 100%;
 }
 #big-G{

@@ -22,6 +22,7 @@ h1 > a {
     margin-top: 5%;
     max-width: 4em;
     grid-column: 1;
+    border-radius: 50%;
   }
   .social-icons picture a >img {
     max-width: 1.8em;
@@ -288,6 +289,7 @@ footer {
   .footlogoo  picture > img {
     width: 180px;
     padding-top: 5%;
+    border-radius: 50%;
   }
   
   hr {
@@ -370,13 +372,15 @@ form fieldset {
   padding: 0.5rem 2.5%;
   max-width: 25rem;
   padding-inline-end: 2rem;
+  box-shadow: 2px navy;
 }
 
 form legend {
-  color:navy;
+  color:white;
   padding: 0.5rem;
-  background-color: thistle;
+  background-color:navy;
   border-radius: 5px;
+  box-shadow: 2px navy;
 }
 
 form label.top,
@@ -384,7 +388,7 @@ form div {
   display: block;
   padding-top: 1rem;
   padding-right: 1rem;
-  color: #355b8c;
+  color: black;
   font-size: 0.8rem;
 }
 
@@ -393,24 +397,24 @@ form label.top select {
   -webkit-appearance: none;
   /*display: block;*/
   font-size: 1rem;
-  border: solid 1px #999;
+  border: solid 1px black;
   border-radius: 4px;
   padding: 0.75rem;
-  color: #555;
+  color:black;
   width: 100%;
   max-width: 20rem;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color:white;
 }
 
 form label.sbs {
   display: block;
   padding: 0.75rem 0;
-  color: #555;
+  color:black;
 }
 
 form textarea {
   width: 88%;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: white;
   padding: 0.2rem;
 }
 
@@ -430,7 +434,7 @@ form input.submitBtn {
 }
 
 form input.submitBtn:hover {
-  background-color: #bf6f7e97;
+  background-color: navy;
   cursor: pointer;
 }
 
@@ -447,30 +451,32 @@ form label.top input:required:valid {
 }
 
 .cost {
-  background-color: var(--arctic-lime);
-  color: var(--dark-purple);
+  background-color: navy;
+  color: white;
   font-weight: bold;
   padding: 0.25rem 1rem;
   margin-left: 0.5rem;
   border-radius: 10px;
 }
-
+p{background-color: white;
+  color: black;
+}
 @keyframes example {
   0% {
-    background-color: var(--chocolate-web);
+    background-color:red;
     font-weight: bold;
   }
   25% {
-    background-color: var(--sage);
+    background-color: white;
     font-weight: bold;
   }
   50% {
-    background-color: var(--chocolate-web);
+    background-color: lawngreen;
     font-weight: bold;
     font-size: 0.8rem;
   }
   100% {
-    background-color: var(--sage);
+    background-color:navy;
     font-weight: bold;
   }
 }

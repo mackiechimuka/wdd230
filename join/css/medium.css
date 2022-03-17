@@ -124,5 +124,9 @@
         font-size: 15px;
         text-align: center;
       }
+      main.join-main {
+        display: flex;
+        flex-direction: column;
+      }
     }
     

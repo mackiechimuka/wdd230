@@ -1,155 +1,175 @@
 @media screen and  (min-width:60em){
-    .header-logo > img {
-        max-width: 7rem;
-        grid-column: 1;
-        padding-left: 0%;
-        padding-top: 2%;
-      }
-      nav ul li a {
-        color: white;
-        padding: 0.5rem 1rem;
-        font-size: 1em;
-      }
-      header {
-        font-size: 25px;
-      }
-    
-      h1{
-        margin-left: 5%;
-        }
-    
-      .header-logo > img {
-        max-width: 7rem;
-        grid-column: 1;
-        padding-left: 0%;
-        padding-top: 2%;
-      }
-    
-    
-      div.sitename {
-        grid-column: 2/5;
-        grid-row: 1;
-        padding-left: 10%;
-        font-size: 1em;
-        color: white;
-      }
-    
-      nav {
-        background-color: transparent;
-        grid-column: 4/10;
-        grid-row: 1;
-      }
-      .social-content {
-        grid-row: 1;
-        grid-column: 10;
-      }
-    
-      .social-icons > a> img {
-        max-width: 4rem;
-      }
-    
-    
-      nav ul.open{
-        display: none;
-      }
-      nav button {
-        display: none;
-      }
-    
-      nav ul#navicon {
-        display: flex;
-        margin-left: 2vw;
-        border-left: 1px solid rgba(0, 0, 0, 0.3);
-      }
-    
-      nav ul li a {
-        color: white;
-        border: none;
-        border-right: 1px solid rgba(0, 0, 0, 0.3);
-      }
-    
-      nav {
-        background-color: transparent;
-        grid-column: 5/10;
-        grid-row: 1;
-      }
-    header{
-        background-color:navy ;
-    
+  .header-logo > img {
+      max-width: 7rem;
+      grid-column: 1;
+      padding-left: 0%;
+      padding-top: 2%;
     }
+    nav ul li a {
+      color: white;
+      padding: 0.5rem 1rem;
+      font-size: 1em;
+    }
+    header {
+      font-size: 25px;
+    }
+  
     h1{
-        font-size: 37px;
-    }
-    h2{
-        font-size: 24px;
-    }
-    p{
-        font-size: 18px;
-    }
-    .gweru{
-        display: grid ;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 3fr;
-    }
-    .event{
-        grid-column: 1/2;
-        grid-row: 1;
-    }
-    .hero{
-        grid-column:2/4 ;
-        grid-row: 1/3;
-    }
-    #big-G{
-        width: 100%;
-        display: block;
-    }
-    #small-G{
-        display: none;
-    }
-    #welcome{
-      position: absolute;
-      background-color: thistle;
-      font-size: 22px;
-      top: 0;
-      padding: 5px;
-      right: 7px;
-  }
-  #h2w{
-      position: absolute;
-      background-color:thistle;
-      left: 160px;
-      bottom: 760px;
-      border-radius: 20px;
-      font-size: 22px;
-  }
-    .spot{
-        grid-column: 4/5;
-        grid-row: 1/4;
-    }
-    .light{
-        display: block;
-    }
-    .spotlight3{
-        display: grid;
-        border: solid navy;
-        padding: 5px;
-        margin: 5px;
-    }
-    .weather{
-        grid-column:1/2 ;
-        grid-row: 2/3;
-    }
-    .join{
-        grid-column: 1/2;
-        grid-row: 3/4;
-        display: grid;
-    }
-    .news{
-        grid-column: 2/4;
-        grid-row: 3/4;
-    }
-    .footer-logo > img {
-        width: 125px;
-        padding-top: 5%;
+      margin-left: 5%;
       }
+  
+    .header-logo > img {
+      max-width: 7rem;
+      grid-column: 1;
+      padding-left: 0%;
+      padding-top: 2%;
     }
+  
+  
+    div.sitename {
+      grid-column: 2/5;
+      grid-row: 1;
+      padding-left: 10%;
+      font-size: 1em;
+      color: white;
+    }
+  
+    nav {
+      background-color: transparent;
+      grid-column: 4/10;
+      grid-row: 1;
+    }
+    .social-content {
+      grid-row: 1;
+      grid-column: 10;
+    }
+  
+    .social-icons > a> img {
+      max-width: 4rem;
+    }
+  
+  
+    nav ul.open{
+      display: none;
+    }
+    nav button {
+      display: none;
+    }
+  
+    nav ul#navicon {
+      display: flex;
+      margin-left: 2vw;
+      border-left: 1px solid rgba(0, 0, 0, 0.3);
+    }
+  
+    nav ul li a {
+      color: white;
+      border: none;
+      border-right: 1px solid rgba(0, 0, 0, 0.3);
+    }
+  
+    nav {
+      background-color: transparent;
+      grid-column: 5/10;
+      grid-row: 1;
+    }
+  header{
+      background-color:navy ;
+  
+  }
+  h1{
+      font-size: 37px;
+  }
+  h2{
+      font-size: 24px;
+  }
+  p{
+      font-size: 18px;
+  }
+  .gweru{
+      display: grid ;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 3fr;
+  }
+  .event{
+      grid-column: 1/2;
+      grid-row: 1;
+  }
+  .hero{
+      grid-column:2/4 ;
+      grid-row: 1/3;
+  }
+  #big-G{
+      width: 100%;
+      display: block;
+  }
+  #small-G{
+      display: none;
+  }
+  #welcome{
+    position: absolute;
+    background-color: thistle;
+    font-size: 22px;
+    top: 0;
+    padding: 5px;
+    right: 7px;
+}
+#h2w{
+    position: absolute;
+    background-color:thistle;
+    left: 160px;
+    bottom: 760px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+  .spot{
+      grid-column: 4/5;
+      grid-row: 1/4;
+  }
+  .light{
+      display: block;
+  }
+  .spotlight3{
+      display: grid;
+      border: solid navy;
+      padding: 5px;
+      margin: 5px;
+  }
+  .weather{
+      grid-column:1/2 ;
+      grid-row: 2/3;
+  }
+  .join{
+      grid-column: 1/2;
+      grid-row: 3/4;
+      display: grid;
+  }
+  .news{
+      grid-column: 2/4;
+      grid-row: 3/4;
+  }
+  .footer-logo > img {
+      width: 125px;
+      padding-top: 5%;
+    }
+
+    ain#tyf {
+      grid: none;
+    }
+    
+    main > div#thankyouforjoining {
+      margin: auto;
+    
+      width: 50%;
+      font-size: 1.5rem;
+      margin-top: 4em;
+      margin-bottom: 10rem;
+    }
+    
+    .description {
+      display: block;
+      font-size: smaller;
+    }
+
+
+  }
