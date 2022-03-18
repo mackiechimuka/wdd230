@@ -1,0 +1,102 @@
+{
+    "data": [
+      {
+        "name": "Promedic",
+        "phone": "+263779397901",
+        "website": "http://www.medpro.info/",
+        "address": "Box 1020 Gweru, Gweru, Zimbabwe",
+        "availability": "Mon - Sat / 7AM - 5PM",
+        "logo-url": "http://www.medprohealth.co.uk/images/logo.png"
+      },
+      {
+        "name": "Series Technologies",
+        "phone": "054221471",
+        "website": "http://www.seriestechnologies.com/",
+        "address": "Shop 7 1st Floor, Alice Building, 6th Street Gweru, Zimbabwe,",
+        "availability": "Mon - Sat / 7AM - 5PM",
+        "logo-url": "https://www.seriestechnologies.com/assets/img/logo-white.svg"
+      },
+      {
+        "name": "TSG CONSTRUCTION & ENGINEERING",
+        "phone": "+263717247678",
+        "website": "https://www.tsgce.blogspot.com/",
+        "address": "Number 1 Little Impali Shurugwi, Gweru, Zimbabwe",
+        "availability": "Mon - Sat / 8am - 6pm",
+        "logo-url": "https://www.zimbabweyp.com/img/zw/r/1499519287-89-tsg-construction-engineering-pvt-ltd.png"
+      },
+      {
+        "name": "Wacmern Private Limited",
+        "phone": "+263542228926",
+        "website": "http://www.wacmern.co.zw/",
+        "address": "Zimpost Building Coner Robert Mugabe and 7th Street ,MD 32, Gweru, Zimbabwe",
+        "availability": "Mon - Sat / 8.30AM - 6PM",
+        "logo-url": "https://www.zimbabweyp.com/img/zw/m/1636017016-89-wacmern-private-limited.png"
+      } 
+      ,
+      {
+        "name": "Multicore Electrical",
+        "phone": "0542220603",
+        "website": "http://www.multicoreelectrical.co.zw/",
+        "address": "41B 3rd Street Gweru, Gweru, Zimbabwe",
+        "availability": "Mon - Sat / 8AM - 4.30PM",
+        "logo-url": "https://www.zimbabweyp.com/img/zw/d/1594313537-81-multicore-electrical.png"
+      },
+      {
+        "name": "Events City",
+        "phone": "+263717818443",
+        "website": "http://www.eventscity.co.zw/",
+        "address": "pd 40, Zimpost building, Gweru, Gweru, Zimbabwe",
+        "availability": "Mon - Sat / 24hrs",
+        "logo-url": "https://www.zimbabweyp.com/img/zw/c/1583628324-47-events-city.png"
+      },
+      {
+        "name": "Bradley Gardens Lodge",
+        "phone": "+263 779 345 299",
+        "website": "http://www.bradleygardens.co.zw/",
+        "address": "11 Bradley Plots, Gweru, Zimbabwe",
+        "availability": "Mon - Sat / 8AM - 9PM",
+        "logo-url": "https://bradleygardens.co.zw/wp-content/uploads/2019/02/Bradley-Gardens-Logo-01.png"
+      } ,
+      {
+        "name": "Nowak southern transport",
+        "phone": "+263714130929",
+        "website": "http://www.nowak.co.zw",
+        "address": "No 11 luton rd L.I.S Gweru, Gweru, Zimbabwe ",
+        "availability": "Mon - Sat / 8AM - 9PM",
+        "logo-url": "http://www.nowak.co.zw/images/nst_logo.png"
+      },
+      {
+        "name": "RRP Construction",
+        "phone": "+263 54 222 0308",
+        "website":"http://rrp.co.zw/",
+        "address": "85-9th Street, Gweru, Zimbabwe, Gweru",
+        "availability": "Mon - Sat / 8AM - 5PM",
+        "logo-url": "http://rrp.co.zw/wp-content/uploads/2021/08/rrp.png"
+      } 
+      ,
+      {
+        "name": "Tirth Hygiene Technology Pvt. Ltd.",
+        "phone": "07948900236",
+        "website": "https://www.cleanland.co.in/products-enquiry/",
+        "address": "zimbabve rd, afasia mkt, zimbabwe, Gweru",
+        "availability": "Mon - Sat / 8am - 5PM",
+        "logo-url": "https://www.cleanland.co.in/products-enquiry/img/logo.png"
+      },
+      {
+        "name": "Black Dew Resources Pvt Ltd",
+        "phone": "+263780875569",
+        "website": "http://www.blackdewresourcez.co.zw/",
+        "address": "PD 41 Second floor, Telone Building, 7th street ,Gweru",
+        "availability": "Mon - Sat / 8AM - 5PM",
+        "logo-url": "http://www.blackdewresourcez.co.zw/wp-content/uploads/2020/01/logo-120x34.png"
+      },
+      {
+        "name": "Mosa Solutions",
+        "phone": "+263713416633",
+        "website": "mosa.com",
+        "address": "111 1st floor Tim building (Uptown), Gweru, Zimbabwe",
+        "availability": "Mon - Sat / 8AM - 5PM",
+        "logo-url": "https://www.zimbabweyp.com/img/zw/d/1635957046-42-mosa-solutions.jpg"
+      } 
+    ]
+  }
