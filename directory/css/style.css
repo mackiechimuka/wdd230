@@ -552,18 +552,19 @@ div#defgridview.cards.open > section > h2 {
 }
 
 div#defgridview.cards.open > section > p {
-  margin-left: 20%;
-  padding: 10px;
+  margin-right: 0;
+  padding-right: 0;
 }
 div#defgridview.cards {
-  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0;
 }
 
 div#defgridview.cards.open > section:nth-child(even){
   background-color:navy;
 }
 div#defgridview.cards.open > section:nth-child(odd){
-  background-color: thistle;
+  background-color: navy;
 }
 
 
