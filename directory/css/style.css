@@ -488,5 +488,82 @@ main > div#thankyouforjoining {
   margin-top: 22%;
   margin-bottom: 20%;
 }
+main#demean {
+  display: block;
+}
+
+/* -----GRID VIEW------*/
+div.cards > section > img {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: auto;
+}
+
+div.cards > section > h2 {
+  grid-row: 1;
+}
+
+div#defgridview.cards > section > h2 {
+  text-align: center;
+}
+
+div.cards > section {
+  border: 5px solid navy;
+  display: grid;
+}
+
+/* -----Toggle buttons--------*/
+
+div.viewerselection {
+  display: block;
+  text-align: center;
+  border: 0;
+}
+
+button#gridBtn,
+button#listsBtn {
+  height: 70px;
+  width: 70px;
+}
+
+button#gridBtn > span > img ,
+button#listsBtn > span > img{
+  width: 100%;
+}
+
+ div#defgridview.cards.open > section > img { 
+   display: none; 
+ } 
+
+div#defgridview.cards.open > section {
+  text-align: left;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  border: 1px solid navy;
+}
+
+div#defgridview.cards.open > section > h2 {
+  align-self: flex-start;
+  margin-left: 5%;
+  text-align: inherit;
+}
+
+div#defgridview.cards.open > section > p {
+  margin-left: 5%;
+}
+div#defgridview.cards {
+  padding-left: 0px;
+}
+
+div#defgridview.cards.open > section:nth-child(even){
+  background-color:navy;
+}
+div#defgridview.cards.open > section:nth-child(odd){
+  background-color: thistle;
+}
+
 
   

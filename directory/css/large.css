@@ -170,6 +170,28 @@
       display: block;
       font-size: smaller;
     }
+  
+
+/* -----GRID VIEW------*/
+@media only screen and (min-width: 1200px) {
+  main#demean {
+    max-width: 70em;
+    margin: 0 auto;
+  }
+  div#defgridview.cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  div#defgridview.cards.open {
+    grid-template-columns: repeat(4,1fr);
+}
+div#defgridview.cards.open > section {
+    display: grid;
+    grid-column: 1/5;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
+
+    
 
 
   }

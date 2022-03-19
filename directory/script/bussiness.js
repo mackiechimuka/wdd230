@@ -36,12 +36,13 @@ fetch(requestURL)
       p3.textContent = ` ${business.website}`;
 
       //logo.setAttribute("loading", "lazy");
-      bcard.appendChild(logo);
-      bcard.appendChild(h2);
-      bcard.appendChild(p1);
-      bcard.appendChild(p2);
-      bcard.appendChild(p3);
-      bcards.appendChild(card);
+      card.appendChild(logo);
+      card.appendChild(h2);
+      card.appendChild(p1);
+      card.appendChild(p2);
+      card.appendChild(p3);
+      cards.appendChild(card);
       document.querySelector("div.cards").appendChild(card);
     });
   });
+
