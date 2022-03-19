@@ -547,12 +547,13 @@ div#defgridview.cards.open > section {
 
 div#defgridview.cards.open > section > h2 {
   align-self: flex-start;
-  margin-left: 5%;
+  margin-left: 0%;
   text-align: inherit;
 }
 
 div#defgridview.cards.open > section > p {
-  margin-left: 5%;
+  margin-left: 20%;
+  padding: 10px;
 }
 div#defgridview.cards {
   padding-left: 0px;

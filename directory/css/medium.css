@@ -129,4 +129,29 @@
         flex-direction: column;
       }
     }
+    main#demean{
+      max-width: 55em;
+      margin: 0 auto;
+    }
     
+    div.cards > section {
+      text-align: center;
+      margin: 5px;
+      border-radius: 5px;
+    }
+    
+    @media only screen and (min-width: 35rem) {
+    div#defgridview.cards  {
+        padding-left: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 0;
+    }
+    div#defgridview.cards.open > section{
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-rows: 0.2fr 0.2fr;
+        grid-column: 1/3;
+        border: 1px solid navy;
+      }
+    }
