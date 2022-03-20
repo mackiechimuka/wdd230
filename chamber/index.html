@@ -8,9 +8,12 @@
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link href="link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Roboto&display=swap" rel="stylesheet">" rel="stylesheet">
         <link rel="shortcut icon" href="images/favicon.png">
         <script defer src="js/main.js"></script>
+        <script defer src ="js/weather.js"></script>
     </head>
     <body>
         <header>
@@ -79,22 +82,20 @@
 
                 </div>
                 <div class="weather">
-                    <h2>Weather</h2>
-                    <picture>
-                        <img src="images/logoweather.png" id="gweather" alt="weather">
-                    </picture>
-                    <p id="temp">
-                        33°C
-                    </p>
-                    <p id="partly">
-                        partly cloud
-                    </p>
+                  
                     <section class="w2k">
-                        <h2 class="wehide">Weather</h2>
-                        <p class="ws">Wind Speed:</p>
-                        <p class="speed">2.5km/h</p>
-                        <p class="wc">Wind Chill:</p>
-                        <p class="na">N/A</p>
+                        <h2>Weather</h2>
+                        <picture>
+                            <img src="" id="gweather" alt="">
+                        </picture>
+                        <p>
+                            <span id="temp"></span>
+                        </p>
+                        <p >
+                            <span id="partly"></span>
+                        </p>
+                        <p >Wind Speed: <span id="speed"></span></p>
+                        <p>Wind Chill: <span id="wc"></span></p>
                       </section>
 
                 </div>

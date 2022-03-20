@@ -170,50 +170,24 @@ div.gweru > div.hero > picture > img {
     border-radius: 20px;
 }
 .w2k {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
+    display: block;
     margin-left: 10%;
   }
   
   #gweather {
-    max-width: 50%;
+    max-width: 200px;
+    height: 200px;
   }
   
   #temp {
-    position: absolute;
-    left: 51%;
-    top: 25%;
     font-size: 1.5em;
   }
   
   #partly {
-    position: absolute;
-    left: 2%;
-    top: 15%;
     font-weight: bold;
     font-size: 0.8em;
   }
-  .wehide{
-      grid-column: 1/3;
-      grid-row: 1;
-      border-top: solid thistle;
-  }
-  .ws{
-      grid-column: 1;
-      grid-row: 2;
-  }
-  .speed{
-      grid-column: 2;
-      grid-row:2 ;
-  }
-  .wc{
-      grid-column: 1;
-      grid-row:3 ;
-  }
-  .na{
-      grid-column: 2;
-      grid-row: 3;
-  }
+  
 .event{
     background-color:white;
     padding:10px;
