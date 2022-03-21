@@ -1,0 +1,102 @@
+{
+    "data": [
+      {
+        "name": "Promedic",
+        "phone": "+263779397901",
+        "website": "www.medpro.info/",
+        "address": "Box 1020 Gweru, Gweru, Zimbabwe",
+        "availability": "Mon - Sat / 7AM - 5PM",
+        "imageurl": "http://www.medprohealth.co.uk/images/logo.png"
+      },
+      {
+        "name": "SeriesTechnologies",
+        "phone": "054221471",
+        "website": "www.serieschnologies.com/",
+        "address": "Shop 7  6th Street Gweru, Zimbabwe,",
+        "availability": "Mon - Sat / 7AM - 5PM",
+        "imageurl": "https://www.seriestechnologies.com/assets/img/logo-white.svg"
+      },
+      {
+        "name": "TSG ENGINEERING",
+        "phone": "+263717247678",
+        "website": "www.tsgce.blogspot.com/",
+        "address": "Number 1 Little, Gweru, Zimbabwe",
+        "availability": "Mon - Sat / 8am - 6pm",
+        "imageurl": "https://www.zimbabweyp.com/img/zw/r/1499519287-89-tsg-construction-engineering-pvt-ltd.png"
+      },
+      {
+        "name": "Wacmern Private Limited",
+        "phone": "+263542228926",
+        "website": "www.wacmern.co.zw/",
+        "address": "Zimpost Building Coner Robert Mugabe and 7th Street ,MD 32, Gweru, Zimbabwe",
+        "availability": "Mon - Sat / 8AM - 4.30PM",
+        "imageurl": "https://www.zimbabweyp.com/img/zw/m/1636017016-89-wacmern-private-limited.png"
+      },
+      {
+        "name": "Events City",
+        "phone": "+263717818443",
+        "website": "www.eventscity.co.zw/",
+        "address": "pd 40, Zimpost building, Gweru, Gweru, Zimbabwe",
+        "availability": "Mon - Sat / 24hrs",
+        "imageurl": "https://www.zimbabweyp.com/img/zw/c/1583628324-47-events-city.png"
+      },
+      {
+        "name": "Bradley Lodge",
+        "phone": "+263 779 345 299",
+        "website": "www.bradleygardens.co.zw/",
+        "address": "11 Bradley , Gweru, Zimbabwe",
+        "availability": "Mon - Sat / 8AM - 9PM",
+        "imageurl": "https://bradleygardens.co.zw/wp-content/uploads/2019/02/Bradley-Gardens-Logo-01.png"
+      } ,
+      {
+        "name": "Nowak southern transport",
+        "phone": "+263714130929",
+        "website": "www.nowak.co.zw",
+        "address": "No 11 luton rd L.I.S Gweru, Gweru, Zimbabwe ",
+        "availability": "Mon - Sat / 8AM - 9PM",
+        "imageurl": "http://www.nowak.co.zw/images/nst_logo.png"
+      },
+      {
+        "name": "RRP Construction",
+        "phone": "+263 54 222 0308",
+        "website":"http://rrp.co.zw/",
+        "address": "85-9th Street, Gweru, Zimbabwe, Gweru",
+        "availability": "Mon - Sat / 8AM - 5PM",
+        "imageurl": "http://rrp.co.zw/wp-content/uploads/2021/08/rrp.png"
+      } 
+      ,
+      {
+        "name": "Tirth Hygiene Tech",
+        "phone": "07948900236",
+        "website": "www.clean/products-enquiry/",
+        "address": "zimbabve rdmkt, zimbabwe, Gweru",
+        "availability": "Mon - Sat / 8am - 5PM",
+        "imageurl": "https://www.cleanland.co.in/products-enquiry/img/logo.png"
+      },
+      {
+        "name": "Black Dew Resources Pvt Ltd",
+        "phone": "+263780875569",
+        "website": "www.blacksourcez.co.zw/",
+        "address": "PD 41 Second floor, 7th street ,Gweru",
+        "availability": "Mon - Sat / 8AM - 5PM",
+        "imageurl": "http://www.blackdewresourcez.co.zw/wp-content/uploads/2020/01/logo-120x34.png"
+      },
+      
+      {
+        "name": "Mosa Solutions",
+        "phone": "+263713416633",
+        "website": "mosa.com",
+        "address": "111 1st floor Tim building (Uptown), Gweru, Zimbabwe",
+        "availability": "Mon - Sat / 8AM - 5PM",
+        "imageurl": "https://www.zimbabweyp.com/img/zw/d/1635957046-42-mosa-solutions.jpg"
+      } ,
+      {
+        "name": "Walter",
+        "phone": "+263713487599",
+        "website": "qou.com",
+        "address": "49th Street, Gweru, Zimbabwe",
+        "availability": "Mon - Sat / 8AM - 5PM",
+        "imageurl": "https://www.zimbabweyp.com/img/zw/m/1549441209-81-walter-and-associates.jpg"
+      } 
+    ]
+  }

@@ -89,7 +89,6 @@
   .gweru{
       display: grid ;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-template-rows: 3fr;
   }
   .event{
       grid-column: 1/2;
