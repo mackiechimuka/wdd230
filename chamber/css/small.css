@@ -210,7 +210,6 @@ div.gweru > div.hero > picture > img {
     margin: 5px;   
 }
 .lodge{
-  box-shadow: 5px;
   border-radius: 25px;
   width: 75%;
   padding-left: 10px;
@@ -627,7 +626,6 @@ textarea.input {
   color:white;
   font-size: 0.9rem;
   font-weight: 400;
-  pointer-events: none;
   z-index: 1000;
   transition: 0.5s;
 }
@@ -663,7 +661,6 @@ textarea.input {
   font-size: 0.8rem;
   padding: 0 0.4rem;
   color: transparent;
-  pointer-events: none;
   z-index: 500;
 }
 
