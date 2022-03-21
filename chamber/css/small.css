@@ -24,20 +24,20 @@ h1 > a {
     border-radius: 50%;
   }
   .social-icons picture a >img {
-    max-width: 1.8em;
+    max-width: 1.5em;
   }
   
   .social-icons {
     display: flex;
-    flex-direction: row;
+    flex-direction:column-reverse;
   }
   .social-content {
-    grid-column: 4/5;
+    grid-column: 3/5;
     grid-row: 1;
   }
   .sitename{
     grid-column: 2/3;
-    font-size: 1rem;
+    font-size: small;
     padding: 5px;
   }
   nav button {
@@ -49,7 +49,7 @@ h1 > a {
   }
   nav {
     background-color: navy;
-    grid-column: 1/5;
+    grid-column: 1/4;
     grid-row: 2;
     justify-self:auto
   }
@@ -739,22 +739,6 @@ textarea.input {
 .social-icons {
   display: flex;
   margin-top: 0.5rem;
-}
-
-.social-icons a {
-  width: 35px;
-  height: 35px;
-  border-radius: 5px;
-  background-color: transparent;
-  color: #fff;
-  text-align: center;
-  line-height: 35px;
-  margin-right: 0.5rem;
-  transition: 0.3s;
-}
-
-.social-icons a:hover {
-  transform: scale(1.05);
 }
 
 
