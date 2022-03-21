@@ -88,6 +88,14 @@
         "address": "111 1st floor Tim building (Uptown), Gweru, Zimbabwe",
         "availability": "Mon - Sat / 8AM - 5PM",
         "imageurl": "https://www.zimbabweyp.com/img/zw/d/1635957046-42-mosa-solutions.jpg"
-      } 
+      },
+      {
+        "name": "Walter",
+        "phone": "+263713487599",
+        "website": "qou.com",
+        "address": "49th Street, Gweru, Zimbabwe",
+        "availability": "Mon - Sat / 8AM - 5PM",
+        "imageurl": "https://www.zimbabweyp.com/img/zw/m/1549441209-81-walter-and-associates.jpg"
+      }  
     ]
   }
