@@ -74,7 +74,7 @@
         grid-template-columns: 15% 35% 15% 35%;
         grid-template-rows: 1fr 0.3fr;
         align-items: center;
-        font-family: var(--header-font);
+        font-family: Barlow;
         font-weight: bold;
         font-size: 18px;
         background-color: navy;
@@ -134,7 +134,7 @@
         grid-template-columns: 15% 35% 15% 35%;
         grid-template-rows: 1fr 0.3fr;
         align-items: center;
-        font-family: var(--header-font);
+        font-family: Barlow;
         font-weight: bold;
         font-size: 18px;
         background-color: navy;
